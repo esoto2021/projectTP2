@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
     res.send('Servidor corriendo exitosamente en http://localhost:8000/')
 })
 
+//consultar por params
 var formulario = '<form method="post" action="/bares">'
     + '<label for="nombre">¿Decime tu nombre?</label>'
     + '<input type="text" name="nombre" id="nombre">'
